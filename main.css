@@ -1,0 +1,59 @@
+* {
+    margin:0%;
+    padding: 0%;
+}
+
+.nav-bar ul{
+    list-style: none; /* 기본 목록 스타일 제거 */
+    padding: 0;
+    margin: 0;
+    display: flex; /* 수평으로 배치 */
+    justify-content: center; /* 가운데 정렬 */
+}
+.nav-bar li {
+    padding: 10px 20px; /* 탭에 여백 추가 */
+    margin: 0 10px; /* 탭 사이에 간격 추가 */
+    cursor: pointer; /* 마우스를 올리면 포인터로 변경 */
+    background-color: #f0f0f0; /* 배경색 */
+    border-radius: 5px; /* 둥근 모서리 */
+    transition: background-color 0.3s ease; /* 호버 시 배경색 변화 */
+}
+.nav-bar li:hover {
+    background-color: #007bff; /* 호버 시 배경색 변경 */
+    color: white; /* 텍스트 색상 변경 */
+  }
+  
+.nav-bar li:first-child {
+    margin-left: 0; /* 첫 번째 항목의 왼쪽 여백 제거 */
+  }
+  
+.nav-bar li:last-child {
+    margin-right: 0; /* 마지막 항목의 오른쪽 여백 제거 */
+  }
+.search-bar{
+
+}
+.container{
+    display: flex;
+    justify-content: space-between; /* 왼쪽, 가운데, 오른쪽을 배치 */
+    align-items: center; /* 세로 방향으로 가운데 정렬 */
+    padding: 10px;
+}
+.aside{
+    width: fit-content; /* 왼쪽 영역의 너비 */
+
+}
+.main-content{
+    flex-grow: 1; /* 가운데 영역이 나머지 공간을 차지하게 */
+    text-align: center;
+
+
+}
+.loginTab{
+    width: 30%; /* 오른쪽 영역의 너비 */
+    border-radius: 5px;
+}
+.info
+{
+
+}
